@@ -44,11 +44,11 @@ class LoginActivity : AppCompatActivity() {
                             , "Ingreso Satisfatorio"
                             , Snackbar.LENGTH_LONG
                         ).show()
-                        startActivity((Intent(this, MainActivity::class.java)))
+                        startActivity((Intent(this, PrincipalActivity::class.java)))
                     }else{
                         Snackbar.make(
                             findViewById(android.R.id.content)
-                            , "Crenciales inválidas"
+                            , "Credenciales inválidas"
                             , Snackbar.LENGTH_LONG
                         ).show()
                     }

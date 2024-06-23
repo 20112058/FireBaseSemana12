@@ -26,4 +26,6 @@
     <string name="LastName">Last Name\n</string>
     <string name="Save">Save</string>
     <string name="phoneNumber">Phone Number</string>
+    <string name="SearchPokemon">Search</string>
+    <string name="Pokemon">POKEMON</string>
 </resources>
